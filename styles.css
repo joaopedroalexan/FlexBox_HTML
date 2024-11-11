@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: arial,sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header img{
+  width: 150px;
+  justify-content: center;
+}
+
+header .log{
+  font-size: 24px;
+}
+
+header nav{
+  display: flex;
+  gap: 15px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+
+#Home{
+  flex-grow: 1;
+  padding: 45;
+  background-color: cornsilk;
+  align-content: center;
+  
+}
+
+.Tenis-container{
+  padding: 45px;
+  background-color: beige;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding:45px;
+  background-color: aquamarine;
+  color: black;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
